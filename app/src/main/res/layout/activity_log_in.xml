@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.ambergautam.fbclone.Log_in">
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:paddingBottom="16dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <ImageView
+            android:src="@drawable/fb"
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <EditText
+            android:layout_below="@id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:id="@+id/user"
+            android:textColor="@color/lightgray"
+            android:textColorHint="@color/lightgray"
+            android:hint="@string/username"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:textColor="@color/lightgray"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:hint="@string/password"
+            android:textColorHint="@color/lightgray"
+            android:inputType="textPassword" />
+        <Button
+            android:id="@+id/log_in_btn"
+            android:layout_below="@id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Log In"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/lightgray"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/forgot"
+            android:layout_below="@id/log_in_btn"
+            android:text="@string/forgot_password"
+            android:gravity="center"
+            android:textColor="@color/lightgray"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/crt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp"
+            android:text="CREATE NEW FACEBOOK ACCOUNT"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/lightgray"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:textAllCaps="true"/>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

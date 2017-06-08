@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FB Clone</string>
+    <string name="app_nam">Create Account</string>
+    <string name="app_namm">Name</string>
+    <string name="app_gender">Gender</string>
+    <string name="app_policy">Terms and Privacy </string>
+    <string name="app_mob">Mobile Number</string>
+    <string name="app_bday">Birthday</string>
+    <string name="app_pass">Password</string>
+    <string name="name">What\'s Your Name?</string>
+    <string name="username">Email or Phone</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="create">CREATE NEW FACEBOOK ACCOUNT</string>
+    <string name="join">Join Facebook</string>
+    <string name="line">Using your real name makes it easier for friends to recognize you.</string>
+    <string name="help">We\'ll help you create a new account in a few easy steps </string>
+    <string name="mob">Enter Your Mobile Number</string>
+    <string name="mobmsg">You\'ll use this number when you log in and if you ever need to resetyour password</string>
+    <string name="wbday">What\'s Your Birthday?</string>
+    <string name="bdaymsg">Your birthday can be hidden from your friends</string>
+    <string name="wgen">What\'s Your Gender>.</string>
+    <string name="agen">Providing gender creates the best Facebook experience for you.</string>
+    <string name="wpas">Choose a Password</string>
+    <string name="apas">Remember this password. A password helps prevent strangers from using your account.</string>
+    <string name="finish">Finishing Signing Up</string>
+    <string name="fmsg">By singing up you are agree to our facebook and that you have read our data policy, including our cookies
+    use. You may receive SMS Notifications From facebook and opt-out any time</string>
+    <string name="contacts">Contacts</string>
+    <string name="cmsg">Info about your contacts in your address book, including names, phone numbers and nicknames will be continuously
+    uploaded to facebook to help and other find friends faster and to help us provide a better
+    service. You will be able to manage or delete contacts information you share with facebook, and you can turn off at any time
+    in settings</string>
+    <string name="sign">Sign up without uploading my contacts</string>
+</resources>
+
+
